@@ -1,0 +1,8 @@
+MSH|^~\&|Our System|Our Facility|Their Remote System|Their Remote Facility|20220913140631||ADT^A01^ADT_A01|123420220913140631|P|2.4
+EVN|A01|20220913140631
+PID|||378785433211||${fname}^${lname}||||||123 Main Street^^Lake Buena Vista^FL^^USA
+PV1||O|Some Point of Care^${f2}${f2}^^|ALERT||||99999999^Smith^Jack^^^^^^^^^^456789||||||||||||||||||||||||||||||||||||20220913140631
+PID|||378785433211||${formula}^||||||123 Main Street^^Lake Buena Vista^FL^^USA
+PID|||378785433211||----${f2}----^||||||123 Main Street^^Lake Buena Vista^FL^^USA
+PID|||378785433211|| <#if empty_val??>${empty_val}</#if>--- "check empty attribute"
+PID|||378785423423|| -${ABC}---
